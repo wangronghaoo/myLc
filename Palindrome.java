@@ -11,7 +11,7 @@ public class Palindrome {
      */
 
     public static void main(String[] args) {
-        System.out.println(palindrome(325));
+        System.out.println(palindrome(3210));
         System.out.println(palindrome2(3223));
     }
 
