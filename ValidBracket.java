@@ -38,8 +38,6 @@ public class ValidBracket {
             }else if (stack.isEmpty() || strs.charAt(i) != stack.pop()) { //判断栈是否为空,防止以右括号开头
                 return false;
             }
-
-
         }
         return stack.isEmpty();   //如果为空则全部正确关闭,否则还有多余的括号
     }
